@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <div class="display">
+        <img src="./BBVA-Emblem.png" alt="" width="300px">
+
+        <div class="cajero">
+
+            <h2>Hola! <br>Ingresa tus datos</h2>
+
+
+            <label for="user">DNI</label>
+            <input type="password" id="user">
+
+            <label for="password">Contraseña</label>
+            <input type="password" id="password">
+
+            <button id="login">ACEPTAR</button>
+
+            <p id="wronglogin" class="wronglogin">DNI o contraseña incorrecta.</p>
+
+        </div>
+
+
+        <div class="menuinicio">
+
+            <div class="displayinicio">
+
+                <button id="btn-consulta">Consultar saldo</button>
+
+                <button id="btn-deposito">Deposito</button>
+
+                <button id="btn-retiro">Retiro</button>
+
+                <button>Pagar Servicios</button>
+                <button>Más operaciones</button>
+                <button>Cerrar sesión</button>
+
+            </div>
+        </div>
+
+
+        <div class="consulta">
+
+            <p>Hola ! </p>
+            <p id="saldo"></p>
+
+        </div>
+
+        <div class="deposito-container">
+
+            <div class="deposito">
+                <label for="montodepositado">Ingrese el monto a depositar</label>
+                <input type="text" id="montodepositado">
+                <button id="depositar">Depositar</button>
+                <p id="saldo-deposito"></p>
+            </div>
+
+        </div>
+
+
+        <div class="retiro-container">
+            <div class="retiro">
+
+                <label for="montoretirado">Ingrese el monto que desea retirar</label>
+                <input type="text" id="montoretirado">
+                <button id="retirar">Retirar</button>
+
+                <p id="saldo-retiro"></p>
+
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+</body>
+
+</html>

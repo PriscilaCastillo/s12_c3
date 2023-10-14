@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(32, 32, 32);
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
+    margin-top: 50px;
+    border: none;
+    background-color: #2887CA;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+.display img {
+    display: block;
+    margin: auto;
+}
+
+.display {
+    background-color: #004284;
+    margin-top: 70px;
+    padding: 50px;
+    width: 85%;
+    height: 85vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+}
+
+.cajero {
+
+    height: 400px;
+    display: grid;
+    place-items: center;
+    gap: 20px;
+    font-size: 20px;
+   }
+
+.cajero input {
+    height: 70px;
+    width: 380px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+input {
+    padding: 5px;
+}
+
+.wronglogin {
+    display: none;
+}
+
+
+.displayinicio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+
+}
+
+.displayinicio button {
+    padding: 10px;
+}
+
+.menuinicio {
+    display: none;
+}
+
+.consulta {
+    display: none;
+}
+
+.retiro-container {
+    display: none;
+}
+
+.retiro{
+    display: grid;
+    justify-items: center
+}
+
+.retiro input {
+    height: 70px;
+    width: 380px;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.deposito-container {
+    display: none;
+}
+
+.deposito{
+    display: grid;
+    justify-items: center
+}
+
+.deposito input {
+    margin-top: 20px;
+    height: 70px;
+    width: 380px;
+    font-size: 20px;
+    padding: 5px;
+}
